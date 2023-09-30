@@ -1402,7 +1402,7 @@
 			</li>
 		</comps>
 		<statBases>
-			<MaxHitPoints>120</MaxHitPoints>
+			<MaxHitPoints>500</MaxHitPoints>
 			<WorkToBuild>5000</WorkToBuild>
 			<Mass>8</Mass>
 			<Flammability>0</Flammability>
@@ -1653,7 +1653,7 @@
 		<canOverlapZones>false</canOverlapZones>
 		<statBases>
 			<WorkToBuild>30000</WorkToBuild>
-			<MaxHitPoints>100</MaxHitPoints>
+			<MaxHitPoints>1000</MaxHitPoints>
 			<Flammability>0</Flammability>
 		</statBases>
 		<tickerType>Normal</tickerType>
@@ -1786,7 +1786,7 @@
 		</costList>
 		<comps>
 			<li Class="CompProperties_Battery">
-				<storedEnergyMax>1000</storedEnergyMax>
+				<storedEnergyMax>1800</storedEnergyMax>
 				<efficiency>0.95</efficiency>
 				<transmitsPower>true</transmitsPower>
 			</li>
@@ -1840,7 +1840,7 @@
 		</costList>
 		<comps>
 			<li Class="CompProperties_Battery">
-				<storedEnergyMax>10000</storedEnergyMax>
+				<storedEnergyMax>69420</storedEnergyMax>
 				<efficiency>0.95</efficiency>
 				<transmitsPower>true</transmitsPower>
 			</li>
@@ -1888,7 +1888,7 @@
 		<canOverlapZones>false</canOverlapZones>
 		<statBases>
 			<WorkToBuild>50000</WorkToBuild>
-			<MaxHitPoints>500</MaxHitPoints>
+			<MaxHitPoints>5000</MaxHitPoints>
 			<Flammability>0.1</Flammability>
 		</statBases>
 		<tickerType>Normal</tickerType>
@@ -1930,10 +1930,10 @@
 				<glowColor>(222,64,64,0)</glowColor>
 			</li>
 			<li Class="CompProperties_Explosive">
-				<wickTicks>240</wickTicks>
-				<explosiveRadius>12.9</explosiveRadius>
+				<wickTicks>15</wickTicks>
+				<explosiveRadius>129.9</explosiveRadius>
 				<explosiveDamageType>Bomb</explosiveDamageType>
-				<chanceNeverExplodeFromDamage>0.5</chanceNeverExplodeFromDamage>
+				<chanceNeverExplodeFromDamage>0.05</chanceNeverExplodeFromDamage>
 				<postExplosionSpawnThingDef>Filth_SpaceReactorAsh</postExplosionSpawnThingDef>
 				<postExplosionSpawnThingCount>200</postExplosionSpawnThingCount>
 			</li>
@@ -1977,7 +1977,7 @@
 		<canOverlapZones>false</canOverlapZones>
 		<statBases>
 			<WorkToBuild>20000</WorkToBuild>
-			<MaxHitPoints>200</MaxHitPoints>
+			<MaxHitPoints>2000</MaxHitPoints>
 			<Flammability>0.1</Flammability>
 		</statBases>
 		<tickerType>Normal</tickerType>
@@ -2019,12 +2019,12 @@
 				<glowColor>(222,64,64,0)</glowColor>
 			</li>
 			<li Class="CompProperties_Explosive">
-				<wickTicks>240</wickTicks>
-				<explosiveRadius>6.9</explosiveRadius>
+				<wickTicks>5</wickTicks>
+				<explosiveRadius>96.9</explosiveRadius>
 				<explosiveDamageType>Bomb</explosiveDamageType>
-				<chanceNeverExplodeFromDamage>0.5</chanceNeverExplodeFromDamage>
+				<chanceNeverExplodeFromDamage>0.01</chanceNeverExplodeFromDamage>
 				<postExplosionSpawnThingDef>Filth_SpaceReactorAsh</postExplosionSpawnThingDef>
-				<postExplosionSpawnThingCount>50</postExplosionSpawnThingCount>
+				<postExplosionSpawnThingCount>150</postExplosionSpawnThingCount>
 			</li>
 		</comps>
 		<placeWorkers>
@@ -2064,7 +2064,7 @@
 		<fillPercent>0.1</fillPercent>
 		<statBases>
 			<WorkToBuild>5000</WorkToBuild>
-			<MaxHitPoints>500</MaxHitPoints>
+			<MaxHitPoints>5000</MaxHitPoints>
 			<Flammability>0</Flammability>
 		</statBases>
 		<description>Provides docking facilities for shuttles. Must be kept clear of obstructions. Place beacons around it to allow Imperial shuttles to land on it.</description>
@@ -2112,7 +2112,7 @@
 		<fillPercent>0.1</fillPercent>
 		<statBases>
 			<WorkToBuild>7000</WorkToBuild>
-			<MaxHitPoints>700</MaxHitPoints>
+			<MaxHitPoints>7000</MaxHitPoints>
 			<Flammability>0</Flammability>
 		</statBases>
 		<description>Provides docking facilities for shuttles. This version is large enough to support the superheavy dropship. Must be kept clear of obstructions. Place beacons around it to allow Imperial shuttles to land on it.</description>
@@ -2158,7 +2158,7 @@
 		<fillPercent>0.1</fillPercent>
 		<statBases>
 			<WorkToBuild>5000</WorkToBuild>
-			<MaxHitPoints>500</MaxHitPoints>
+			<MaxHitPoints>5000</MaxHitPoints>
 			<Flammability>0</Flammability>
 		</statBases>
 		<description>Moves enemy ship wrecks to your map. More bays are required for larger ships. Can also move and get rid of unwanted wrecks.\n\nWeight limit: 5000</description>
@@ -2269,8 +2269,8 @@
 		<blockLight>false</blockLight>
 		<canOverlapZones>false</canOverlapZones>
 		<statBases>
-			<WorkToBuild>9600</WorkToBuild>
-			<MaxHitPoints>1000</MaxHitPoints>
+			<WorkToBuild>96000</WorkToBuild>
+			<MaxHitPoints>10000</MaxHitPoints>
 			<Flammability>0</Flammability>
 		</statBases>
 		<description>Generates a field which masks heat emissions, hiding your ship from passive scans. This prevents random ship battles from starting, but is not helpful once combat has already begun. It also cannot protect you from the powerful scanners used to find ships with high Notoriety.\n\nWhile the device is active, your ship's radiators will be disabled and heat capacity will decrease.</description>
@@ -2278,14 +2278,14 @@
 		<comps>
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
-				<basePowerConsumption>5000</basePowerConsumption>
+				<basePowerConsumption>100000</basePowerConsumption>
 				<transmitsPower>true</transmitsPower>
 			</li>
 			<li Class="CompProperties_Flickable"/>
 			<li Class="CompProperties_GraphicOnOff"/>
 			<li Class="CompProperties_ShipHeat">
 				<compClass>CompShipHeatSource</compClass>
-				<heatPerSecond>1</heatPerSecond>
+				<heatPerSecond>100</heatPerSecond>
 			</li>
 		</comps>
 		<placeWorkers>
@@ -2347,7 +2347,8 @@
 		<comps>
 			<li Class="CompProperties_SoShipPart"/>
 			<li Class="CompProperties_Power">
-				<compClass>CompPowerTransmitter</compClass>
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>250</basePowerConsumption>
 				<transmitsPower>true</transmitsPower>
 			</li>
 			<li Class="CompProperties_Explosive">
@@ -2387,6 +2388,7 @@
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTransmitter</compClass>
 				<transmitsPower>true</transmitsPower>
+				<basePowerConsumption>550</basePowerConsumption>
 			</li>
 			<li Class="CompProperties_CryptoLaunchable"/>
 		</comps>
@@ -2479,6 +2481,11 @@
 				<explosiveRadius>2.66</explosiveRadius>
 				<explosiveDamageType>Flame</explosiveDamageType>
 			</li>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTransmitter</compClass>
+				<transmitsPower>true</transmitsPower>
+				<basePowerConsumption>750</basePowerConsumption>
+			</li>
 		</comps>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<staticSunShadowHeight>0.4</staticSunShadowHeight>
@@ -2531,6 +2538,11 @@
 				<explosiveRadius>3.66</explosiveRadius>
 				<explosiveDamageType>Flame</explosiveDamageType>
 			</li>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTransmitter</compClass>
+				<transmitsPower>true</transmitsPower>
+				<basePowerConsumption>1550</basePowerConsumption>
+			</li>
 		</comps>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<staticSunShadowHeight>0.4</staticSunShadowHeight>
@@ -2580,6 +2592,11 @@
 			<li Class="CompProperties_Explosive">
 				<explosiveRadius>3.66</explosiveRadius>
 				<explosiveDamageType>Flame</explosiveDamageType>
+			</li>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTransmitter</compClass>
+				<transmitsPower>true</transmitsPower>
+				<basePowerConsumption>950</basePowerConsumption>
 			</li>
 		</comps>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
@@ -2713,6 +2730,11 @@
 				<hermetic>true</hermetic>
 				<foam>true</foam>
 				<roof>true</roof>
+			</li>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTransmitter</compClass>
+				<transmitsPower>true</transmitsPower>
+				<basePowerConsumption>2000</basePowerConsumption>
 			</li>
 		</comps>
 		<resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>

@@ -16,7 +16,7 @@ namespace RimWorld
 {
 	public class Building_ShipBridge : Building
     {
-        public string ShipName = "Unnamed Ship";
+        public string ShipName = "Super Statek";
 		//SC rem
         public int ShipThreat = 0;
         public int ShipMass = 0;
@@ -111,8 +111,8 @@ namespace RimWorld
                             {
                                 Success(null);
                             },
-                            defaultLabel = "Dev: Hack bridge",
-                            defaultDesc = "Instantly take control of this ship"
+                            defaultLabel = "Dev: Hack the bridge",
+                            defaultDesc = "Why join navy if you can be a pirate"
                         };
                         yield return hackMe;
                     }

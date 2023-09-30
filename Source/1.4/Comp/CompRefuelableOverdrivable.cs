@@ -9,9 +9,9 @@ namespace RimWorld
 {
     class CompRefuelableOverdrivable : CompRefuelable
     {
-        private CompFlickable flickComp;
+        private new CompFlickable flickComp;
         private CompPowerTraderOverdrivable overdriveComp;
-        private float ConsumptionRatePerTick => Props.fuelConsumptionRate / 60000f;
+        private new float ConsumptionRatePerTick => Props.fuelConsumptionRate / 60000f;
 
         public override void Initialize(CompProperties props)
         {

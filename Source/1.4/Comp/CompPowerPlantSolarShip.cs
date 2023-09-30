@@ -12,9 +12,9 @@ namespace RimWorld
         private static readonly Material PowerPlantSolarBarUnfilledMat = SolidColorMaterials.SimpleSolidColorMaterial(new Color(0.15f, 0.15f, 0.15f), false);
         private static float FullSunPower
         {
-            get { return 800f; }
+            get { return 1800f; }
         }
-        private const float NightPower = 0.0f;
+        private const float NightPower =300.0f;
         private CompProperties_PowerPlantSolarShip PropsSolar
         {
             get { return props as CompProperties_PowerPlantSolarShip; }

@@ -2,8 +2,28 @@
 <ModMetaData>
 	<packageId>kentington.saveourship2</packageId>
 	<author>Kentington, Thain, SonicTHI, Owlchemist</author>
-	<name>Save Our Ship 2</name>
-	<description>A comprehensive overhaul of spaceflight.</description>
+	<name>Save Our Ship 2 C0NT1N\/3D</name>
+	<description>
+		C0NT1N\/3D
+		works with game version 1.4 
+		orignally from from Github
+		compilled and packaged for steam
+		errors may happen!
+		use at your own risk 
+		(and have fun :) )
+		
+		A comprehensive overhaul of spaceflight.
+
+		SAVE OUR SHIP 2 EXPERIMENTAL
+		READ CAREFULLY AND IN FULL BEFORE DOING ANYTHING!
+		INTRODUCTION AND DISCLAIMER:
+
+		SOS2 EXPERIMENTAL (SOS2EXP) is the stable and maintained version of Save Our Ship 2 for RimWorld 1.4. It includes over two years worth of bugfixes, performance optimizations, mechanics changes and some new features that might need more testing. An updated version of the Creation kit is also available. Only use it with SOS2EXP.
+
+		While this version is officially endorsed, it is not maintained by RHX media and you use it at your own risk. The original creators occasionally still contribute to this project but neither they or anyone else (except yourself) is responsible for your pawns, saves, PC, etc.
+
+
+	</description>
 	<url/>
 	<supportedVersions>
 		<li>1.4</li>

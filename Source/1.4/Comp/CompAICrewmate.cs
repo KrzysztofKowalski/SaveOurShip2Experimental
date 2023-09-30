@@ -16,7 +16,9 @@ namespace RimWorld
         {
             get;
         }
+#pragma warning disable CS0649
         public int lastTrustTick;
+#pragma warning restore CS0649
 
         public enum AITrustLevel
         {

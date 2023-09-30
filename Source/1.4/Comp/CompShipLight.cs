@@ -14,7 +14,9 @@ namespace RimWorld
     {
         Building shipPart;
         public CompSoShipPart shipComp;
+#pragma warning disable CS0414
         int lightDirections = 0;
+#pragma warning restore CS0414
         List<CompGlower> glowers = new List<CompGlower>();
         public bool sunLight;
         public int Rot;

@@ -10,11 +10,11 @@ namespace RimWorld.BaseGen
     {
         private struct SpawnDescriptor
         {
+#pragma warning disable CS0649
             public IntVec3 offset;
-
             public ThingDef def;
-
             public Rot4 rot;
+#pragma warning restore CS0649
         }
 
         public override void Resolve(ResolveParams rp)

@@ -9,7 +9,9 @@ namespace RimWorld
 {
     class CompProperties_PowerPlantSolarShip : CompProperties_Power
     {
+#pragma warning disable CS0649
         public float bonusPower;
+#pragma warning restore CS0649
 
         public CompProperties_PowerPlantSolarShip()
         {

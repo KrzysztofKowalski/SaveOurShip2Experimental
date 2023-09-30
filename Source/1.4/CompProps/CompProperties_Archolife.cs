@@ -9,7 +9,9 @@ namespace RimWorld
 {
     class CompProperties_Archolife : CompProperties
     {
+#pragma warning disable CS0649
         public float shield;
+#pragma warning restore CS0649
         public bool purr = false;
         public bool scintillate = false;
 
